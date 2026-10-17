@@ -33,3 +33,6 @@ PWA de mantenimiento vehicular sin dependencias, lista para Android, iPhone y Gi
 - Los registros existentes de la primera versión se conservan en el almacenamiento del mismo navegador al actualizar.
 - El cambio de aceite marcado en una lista reinicia el próximo aviso del servicio de aceite. Los demás mantenimientos se registran sin periodicidad automática por ahora.
 - Para actualizar GitHub Pages, sustituye los archivos del repositorio por los de esta versión; no es necesario crear otro repositorio.
+
+## Versión 3: registro por tipo de trabajo
+En **Historial → Registrar trabajo** se escoge **Mantenimiento** (preventivo) o **Correctivo** (reparación de fallas). Cada categoría presenta un catálogo diferente con casillas de selección múltiple. Se pueden añadir tareas no listadas y guardar todo como un solo registro con fecha, km, costo, taller y notas. Los trabajos anteriores se mantienen almacenados con la misma clave local. Antes de actualizar, exporta un respaldo desde la app.
