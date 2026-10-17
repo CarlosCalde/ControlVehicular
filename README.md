@@ -24,3 +24,12 @@ PWA de mantenimiento vehicular sin dependencias, lista para Android, iPhone y Gi
 - La primera carga/instalación requiere internet y HTTPS (GitHub Pages proporciona HTTPS).
 - El control de kilómetros es manual; no lee el odómetro del vehículo.
 - Para desarrollo local utiliza un servidor HTTP (por ejemplo `python -m http.server 8000`), no `file://`.
+
+## Novedades v2
+
+- Lista de tareas habituales agrupadas en 7 categorías. Permite marcar varias tareas en un mismo servicio.
+- Apartado independiente **Trabajo distinto / reparación** para trabajos personalizados.
+- Las tareas seleccionadas se guardan en el historial y se exportan a CSV.
+- Los registros existentes de la primera versión se conservan en el almacenamiento del mismo navegador al actualizar.
+- El cambio de aceite marcado en una lista reinicia el próximo aviso del servicio de aceite. Los demás mantenimientos se registran sin periodicidad automática por ahora.
+- Para actualizar GitHub Pages, sustituye los archivos del repositorio por los de esta versión; no es necesario crear otro repositorio.
